@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+.log-form-container{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 20px;
+    background: grey;
+    display: flex;
+    text-align: center;
+}
+
+.log-form{
+    padding: 60px;
+  margin: auto;
+  width: 100%;
+  max-width: 480px;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: radial-gradient(
+    ellipse at left bottom,
+    #1B427D 0%,
+    #1B427D 59%,
+    #1B427D 100%
+  );
+  box-shadow: 0px 30px 100px -20px rgba(0, 0, 0, 1);
+  position: relative;
+}
+
+.log-form-input{
+  margin: 15px 5px;
+  padding: 10px 10px;
+  width: 80%;
+  outline-width: 0;
+  background-color: transparent;
+  border: white 1.2px solid;
+  color: white;
+  font-size: small;
+  
+}
+
+.form-email{
+  color: white;
+  padding: 1px;
+  background-color: #1B427D;
+  position: absolute;
+  top: 33%;
+  right: 41%;
+
+}.form-sign-email{
+  color: white;
+  padding: 1px;
+  background-color: #1B427D;
+  position: absolute;
+  top: 42%;
+  right: 41%;
+
+}
+
+.form-password{
+  color: white;
+  padding: 1px;
+  background-color: #1B427D;
+  position: absolute;
+  top: 47%;
+  right: 45%;
+}
+
+.form-sign-password{
+  color: white;
+  padding: 1px;
+  background-color: #1B427D;
+  position: absolute;
+  top: 55%;
+  right: 45%;
+}
+
+.form-info{
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  font-size: small;
+  flex-direction: row;
+  color: white;
+}
+
+
+.form-button{
+  margin-top: 30px;
+  padding:8px ;
+  width: 100px;
+  background-color: white;
+  color: blue;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: medium;
+
+}
+
+.form-login-text{
+  color:"white";
+  margin-bottom:"70px"
+}
+
+.form-sign-username{
+  color: white;
+  padding: 1px;
+  background-color: #1B427D;
+  position: absolute;
+  top: 30%;
+  right: 45%;
+}

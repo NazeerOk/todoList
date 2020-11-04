@@ -1,0 +1,108 @@
+.form-li{
+    list-style: none;
+    display: flex;
+    position: relative;
+    margin-bottom: 10px;
+    
+}
+#check-edit{
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    color: #1C437E;
+    cursor: pointer;
+}
+
+#check-button{
+    font-size: 1.5rem;
+    margin-right: 30px;
+    color: #1C437E;
+    cursor: pointer;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 10px;
+    z-index: 1000;
+    height: 50%;
+    width: 25%;
+    max-width: 25%;
+  }
+
+  .overlay{
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color:rgba(0, 0, 0, 0.7);
+      z-index: 1000;
+  }
+
+  .modal-form{
+    
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #1C437E;
+
+  }
+  .modal-header{
+      display: flex;
+      flex: 1;
+      justify-content: space-between;
+  }
+
+  .modal-details{
+      margin: 10px 0px;
+      padding-bottom: 50px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+      height: 100px;
+      width: 100%;
+      background-color: #F0F5FA;
+      border: none;
+  }
+
+  .modal-date,.modal-text,.modal-submitButton,.modal-taskTitle{
+      margin: 10px 10px;
+      cursor: pointer;
+  }
+
+  .add-details{
+      display: flex;
+      flex-direction: column;
+      padding-left: 50px;
+      margin: 10px;  
+  }
+  .add-date{
+      background-color: #F0F5FA;
+      margin-right: 40px;
+      display:flex ;
+      justify-content: center;
+      margin-top: 10px;
+
+  }
+
+  .completed-task{
+      color: green;
+      display: flex;
+      flex-direction: column;
+  }
+  #comp-tick{
+      display: inline;
+      margin-right: 10px;
+      font-size: 1.5rem;
+  }
+  .comp-title{
+      display: inline;
+  }
+  .comp-task{
+      margin: 5px;
+  }
